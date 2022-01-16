@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body {
+        font-family: sans-serif;
+        width: 150px;
+        background-color: rgb(70, 70, 70);
+        color: white;
+        border: 2px solid black;
+        margin: 0;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    #activateSortingBtn {
+        color: white;
+        background-color: green;
+        width: 100%;
+        border-radius: 5px;
+        border: 2px solid black;
+        margin-top: 4px;
+    }
+
+    #activateSortingBtn:active {
+        transform: translateY(3px);
+    }
+
+    #title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+</style>
+
+<body>
+    <h3 id="title">Ylilauta Posts Sorter</h3>
+    <button id="activateSortingBtn"><h3>Sort!</h3></button>
+    <script src="jquery.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
